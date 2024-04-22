@@ -637,3 +637,43 @@
     '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
   timestamp: '2024-04-22T06:05:49.430Z'
 }
+{
+  statusCode: 400,
+  level: 'error',
+  service: 'authService',
+  message: 'User with the email already exits.',
+  stack: 'Error: User with the email already exits.\n' +
+    '    at exports.registerUser (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:27:27)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T23:28:27.518Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  service: 'authService',
+  message: 'User with the email already exits.',
+  stack: 'Error: User with the email already exits.\n' +
+    '    at exports.registerUser (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:27:27)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T23:28:27.524Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  service: 'authService',
+  message: 'User with the email already exits.',
+  stack: 'Error: User with the email already exits.\n' +
+    '    at exports.registerUser (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:27:27)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T23:28:38.279Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  service: 'authService',
+  message: 'User with the email already exits.',
+  stack: 'Error: User with the email already exits.\n' +
+    '    at exports.registerUser (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:27:27)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T23:28:38.283Z'
+}

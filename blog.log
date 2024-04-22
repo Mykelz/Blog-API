@@ -1515,3 +1515,177 @@
     '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
   timestamp: '2024-04-22T21:04:36.408Z'
 }
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'toString')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'toString')\n" +
+    '    at exports.updateState (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:145:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T22:56:10.740Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'toString')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'toString')\n" +
+    '    at exports.updateState (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:145:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T22:57:13.889Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'toString')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'toString')\n" +
+    '    at exports.updateState (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:145:29)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T22:58:22.195Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'toString')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'toString')\n" +
+    '    at exports.updateState (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:145:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T22:59:32.771Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'toString')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'toString')\n" +
+    '    at exports.updateState (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:145:36)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T23:00:25.288Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'toString')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'toString')\n" +
+    '    at exports.updateState (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:145:36)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T23:01:01.899Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'toString')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'toString')\n" +
+    '    at exports.updateState (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:146:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T23:02:36.677Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'toString')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'toString')\n" +
+    '    at exports.updateState (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:146:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T23:03:48.614Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'toString')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'toString')\n" +
+    '    at exports.updateState (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:146:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T23:04:28.159Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'toString')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'toString')\n" +
+    '    at exports.updateState (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:146:29)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T23:05:34.146Z'
+}
+{
+  errors: {
+    state: ValidatorError: Path `state` is required.
+        at validate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1385:13)
+        at SchemaString.SchemaType.doValidate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1369:7)
+        at C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\document.js:3042:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `state` is required.',
+        type: 'required',
+        path: 'state',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'state',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'Blog validation failed',
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'Blog validation failed: state: Path `state` is required.',
+  stack: 'ValidationError: Blog validation failed: state: Path `state` is required.\n' +
+    '    at model.Document.invalidate (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3289:32)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3050:17\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\schemaType.js:1388:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  timestamp: '2024-04-22T23:06:12.287Z'
+}
+{
+  statusCode: 401,
+  level: 'error',
+  service: 'blogService',
+  message: 'Only authors of a blog are allowed to edit it',
+  stack: 'Error: Only authors of a blog are allowed to edit it\n' +
+    '    at exports.editBlog (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:200:27)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T23:26:22.530Z'
+}
+{
+  statusCode: 401,
+  level: 'error',
+  service: 'blogService',
+  message: 'Only authors of a blog are allowed to edit it',
+  stack: 'Error: Only authors of a blog are allowed to edit it\n' +
+    '    at exports.editBlog (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:200:27)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T23:26:22.539Z'
+}
+{
+  statusCode: 401,
+  level: 'error',
+  service: 'blogService',
+  message: 'Only authors of a blog are allowed to delete it',
+  stack: 'Error: Only authors of a blog are allowed to delete it\n' +
+    '    at exports.deleteBlog (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:234:27)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T23:27:29.497Z'
+}
+{
+  statusCode: 401,
+  level: 'error',
+  service: 'blogService',
+  message: 'Only authors of a blog are allowed to delete it',
+  stack: 'Error: Only authors of a blog are allowed to delete it\n' +
+    '    at exports.deleteBlog (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:234:27)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T23:27:29.505Z'
+}

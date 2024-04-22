@@ -68,6 +68,10 @@ exports.createBlog = async (req, res, next )=>{
 
 exports.getBlogs = async (req, res, next) =>{
     try{
+        // for the search/filter query, In the query parameter the key would be 'search' and the 
+        // value would be any of author first_name, blog title or blog tag and it will filter through 
+        // the list of publisehd blogs and return the documents that match the search
+
         let searchQuery = {
             state: 'published'
         };
@@ -135,14 +139,15 @@ exports.updateState = async (req, res, next) =>{
     try{
         const blogId = req.params.blogId;
         const state = req.query.state;
-        const blog = await Blog.findById(blogId).populate('author', 'id, email')
+        const blog = await Blog.findById(blogId).populate('creator', 'id, email')
         if (!blog){
             const error = new Error('Blog doesnt exist');
             error.statusCode = 400;
             blogLogger.error(error)
             throw error
         }
-        if (blog.author.id.toString() !== req.user.toString()){
+        console.log(blog, 'blogIDddddd')
+        if (blog.creator._id.toString() !== req.user.toString()){
             const error = new Error('Only authors who created a blog can change its state');
             error.statusCode = 401;
             blogLogger.error(error)
@@ -191,7 +196,7 @@ exports.editBlog = async (req, res, next) =>{
             blogLogger.error(error)
             throw error;
         }
-        if (blog.author.toString() !== req.user.toString()){
+        if (blog.creator.toString() !== req.user.toString()){
             const error = new Error ('Only authors of a blog are allowed to edit it');
             error.statusCode = 401;
             blogLogger.error(error)
@@ -225,7 +230,7 @@ exports.deleteBlog = async (req, res, next)=>{
     try{
         const blogId = req.params.blogId;
         const blog = await Blog.findById(blogId);
-        if (blog.author.toString() !== req.user.toString()){
+        if (blog.creator.toString() !== req.user.toString()){
             const error = new Error ('Only authors of a blog are allowed to delete it');
             error.statusCode = 401;
             blogLogger.error(error)

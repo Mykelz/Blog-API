@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">33.91% </span>
+                <span class="strong">33.33% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>97/286</span>
+                <span class='fraction'>97/291</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">33.91% </span>
+                <span class="strong">33.33% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>97/286</span>
+                <span class='fraction'>97/291</span>
             </div>
         
             
@@ -348,7 +348,12 @@
 <a name='L283'></a><a href='#L283'>283</a>
 <a name='L284'></a><a href='#L284'>284</a>
 <a name='L285'></a><a href='#L285'>285</a>
-<a name='L286'></a><a href='#L286'>286</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L286'></a><a href='#L286'>286</a>
+<a name='L287'></a><a href='#L287'>287</a>
+<a name='L288'></a><a href='#L288'>288</a>
+<a name='L289'></a><a href='#L289'>289</a>
+<a name='L290'></a><a href='#L290'>290</a>
+<a name='L291'></a><a href='#L291'>291</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -451,6 +456,10 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -482,6 +491,7 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
@@ -703,6 +713,10 @@ exports.createBlog = async (req, res, next )=&gt;{
 &nbsp;
 exports.getBlogs = <span class="fstat-no" title="function not covered" >async (req, res, next) =&gt;{</span>
 <span class="cstat-no" title="statement not covered" >    try{</span>
+<span class="cstat-no" title="statement not covered" >        // for the search/filter query, In the query parameter the key would be 'search' and the </span>
+<span class="cstat-no" title="statement not covered" >        // value would be any of author first_name, blog title or blog tag and it will filter through </span>
+<span class="cstat-no" title="statement not covered" >        // the list of publisehd blogs and return the documents that match the search</span>
+<span class="cstat-no" title="statement not covered" ></span>
 <span class="cstat-no" title="statement not covered" >        let searchQuery = {</span>
 <span class="cstat-no" title="statement not covered" >            state: 'published'</span>
 <span class="cstat-no" title="statement not covered" >        };</span>
@@ -770,14 +784,15 @@ exports.updateState = <span class="fstat-no" title="function not covered" >async
 <span class="cstat-no" title="statement not covered" >    try{</span>
 <span class="cstat-no" title="statement not covered" >        const blogId = req.params.blogId;</span>
 <span class="cstat-no" title="statement not covered" >        const state = req.query.state;</span>
-<span class="cstat-no" title="statement not covered" >        const blog = await Blog.findById(blogId).populate('author', 'id, email')</span>
+<span class="cstat-no" title="statement not covered" >        const blog = await Blog.findById(blogId).populate('creator', 'id, email')</span>
 <span class="cstat-no" title="statement not covered" >        if (!blog){</span>
 <span class="cstat-no" title="statement not covered" >            const error = new Error('Blog doesnt exist');</span>
 <span class="cstat-no" title="statement not covered" >            error.statusCode = 400;</span>
 <span class="cstat-no" title="statement not covered" >            blogLogger.error(error)</span>
 <span class="cstat-no" title="statement not covered" >            throw error</span>
 <span class="cstat-no" title="statement not covered" >        }</span>
-<span class="cstat-no" title="statement not covered" >        if (blog.author.id.toString() !== req.user.toString()){</span>
+<span class="cstat-no" title="statement not covered" >        console.log(blog, 'blogIDddddd')</span>
+<span class="cstat-no" title="statement not covered" >        if (blog.creator._id.toString() !== req.user.toString()){</span>
 <span class="cstat-no" title="statement not covered" >            const error = new Error('Only authors who created a blog can change its state');</span>
 <span class="cstat-no" title="statement not covered" >            error.statusCode = 401;</span>
 <span class="cstat-no" title="statement not covered" >            blogLogger.error(error)</span>
@@ -826,7 +841,7 @@ exports.editBlog = <span class="fstat-no" title="function not covered" >async (r
 <span class="cstat-no" title="statement not covered" >            blogLogger.error(error)</span>
 <span class="cstat-no" title="statement not covered" >            throw error;</span>
 <span class="cstat-no" title="statement not covered" >        }</span>
-<span class="cstat-no" title="statement not covered" >        if (blog.author.toString() !== req.user.toString()){</span>
+<span class="cstat-no" title="statement not covered" >        if (blog.creator.toString() !== req.user.toString()){</span>
 <span class="cstat-no" title="statement not covered" >            const error = new Error ('Only authors of a blog are allowed to edit it');</span>
 <span class="cstat-no" title="statement not covered" >            error.statusCode = 401;</span>
 <span class="cstat-no" title="statement not covered" >            blogLogger.error(error)</span>
@@ -860,7 +875,7 @@ exports.deleteBlog = <span class="fstat-no" title="function not covered" >async 
 <span class="cstat-no" title="statement not covered" >    try{</span>
 <span class="cstat-no" title="statement not covered" >        const blogId = req.params.blogId;</span>
 <span class="cstat-no" title="statement not covered" >        const blog = await Blog.findById(blogId);</span>
-<span class="cstat-no" title="statement not covered" >        if (blog.author.toString() !== req.user.toString()){</span>
+<span class="cstat-no" title="statement not covered" >        if (blog.creator.toString() !== req.user.toString()){</span>
 <span class="cstat-no" title="statement not covered" >            const error = new Error ('Only authors of a blog are allowed to delete it');</span>
 <span class="cstat-no" title="statement not covered" >            error.statusCode = 401;</span>
 <span class="cstat-no" title="statement not covered" >            blogLogger.error(error)</span>
@@ -925,7 +940,7 @@ exports.authorBlog = <span class="fstat-no" title="function not covered" >async 
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2024-04-22T21:45:21.185Z
+                at 2024-04-22T23:33:14.910Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

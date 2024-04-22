@@ -25,7 +25,7 @@ router.get('/blog/:blogId', blogController.getABlog);
 
 router.put('/blog/:blogId/state', isAuth, blogController.updateState);
 
-router.put('/blog/:blogId', isAuth, blogController.editBlog);
+router.patch('/blog/:blogId', isAuth, blogController.editBlog);
 
 router.delete('/blog/:blogId', isAuth, blogController.deleteBlog);
 
