@@ -21,10 +21,11 @@ exports.createBlog = async (req, res, next )=>{
 
         const BodyLength = body.trim().split(" ").length
         const wordsPerMin = 150;
-        const readingTime = BodyLength/wordsPerMin
+        const readingTime = (BodyLength/wordsPerMin)
+    
 
         const user = await User.findById(req.user)
-
+        
         const blog = await Blog.create({
             title: title,
             description: description,
@@ -34,6 +35,9 @@ exports.createBlog = async (req, res, next )=>{
             body: body,
             reading_time: `${readingTime} min`,
         })
+        console.log(blog)
+
+        console.log(blog, 'user blog')
         user.blogs.push(blog)
         const updatedUser = await user.save();
         blogLogger.info('Blog created successfully');

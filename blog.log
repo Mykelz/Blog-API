@@ -1,0 +1,1517 @@
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'title')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'title')\n" +
+    '    at title (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:20:17)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:64:6)\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:40:25)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-22T08:24:30.748Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'title')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'title')\n" +
+    '    at title (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:20:17)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:64:6)\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:40:25)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-22T08:24:30.694Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'title')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'title')\n" +
+    '    at title (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:20:17)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:64:6)\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:42:25)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-22T08:26:57.813Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'title')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'title')\n" +
+    '    at title (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:20:17)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:64:6)\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:42:25)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-22T08:26:58.173Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'title')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'title')\n" +
+    '    at title (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:20:17)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:64:6)\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:42:25)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-22T08:30:13.852Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'title')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'title')\n" +
+    '    at title (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:20:17)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:64:6)\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:42:25)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\blog.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-22T08:30:14.104Z'
+}
+{
+  errors: {
+    creator: ValidatorError: Path `creator` is required.
+        at validate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1385:13)
+        at SchemaObjectId.Object.<anonymous>.SchemaType.doValidate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1369:7)
+        at C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\document.js:3042:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `creator` is required.',
+        type: 'required',
+        path: 'creator',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'creator',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'Blog validation failed',
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'Blog validation failed: creator: Path `creator` is required.',
+  stack: 'ValidationError: Blog validation failed: creator: Path `creator` is required.\n' +
+    '    at model.Object.<anonymous>.Document.invalidate (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3289:32)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3050:17\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\schemaType.js:1388:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  timestamp: '2024-04-22T09:19:16.891Z'
+}
+{
+  errors: {
+    creator: ValidatorError: Path `creator` is required.
+        at validate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1385:13)
+        at SchemaObjectId.Object.<anonymous>.SchemaType.doValidate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1369:7)
+        at C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\document.js:3042:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `creator` is required.',
+        type: 'required',
+        path: 'creator',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'creator',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'Blog validation failed',
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'Blog validation failed: creator: Path `creator` is required.',
+  stack: 'ValidationError: Blog validation failed: creator: Path `creator` is required.\n' +
+    '    at model.Object.<anonymous>.Document.invalidate (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3289:32)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3050:17\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\schemaType.js:1388:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  timestamp: '2024-04-22T09:19:29.180Z'
+}
+{
+  errors: {
+    creator: ValidatorError: Path `creator` is required.
+        at validate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1385:13)
+        at SchemaObjectId.Object.<anonymous>.SchemaType.doValidate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1369:7)
+        at C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\document.js:3042:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `creator` is required.',
+        type: 'required',
+        path: 'creator',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'creator',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'Blog validation failed',
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'Blog validation failed: creator: Path `creator` is required.',
+  stack: 'ValidationError: Blog validation failed: creator: Path `creator` is required.\n' +
+    '    at model.Object.<anonymous>.Document.invalidate (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3289:32)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3050:17\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\schemaType.js:1388:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  timestamp: '2024-04-22T09:20:41.614Z'
+}
+{
+  errors: {
+    creator: ValidatorError: Path `creator` is required.
+        at validate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1385:13)
+        at SchemaObjectId.Object.<anonymous>.SchemaType.doValidate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1369:7)
+        at C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\document.js:3042:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `creator` is required.',
+        type: 'required',
+        path: 'creator',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'creator',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'Blog validation failed',
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'Blog validation failed: creator: Path `creator` is required.',
+  stack: 'ValidationError: Blog validation failed: creator: Path `creator` is required.\n' +
+    '    at model.Object.<anonymous>.Document.invalidate (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3289:32)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3050:17\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\schemaType.js:1388:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  timestamp: '2024-04-22T09:23:02.528Z'
+}
+{
+  errors: {
+    creator: ValidatorError: Path `creator` is required.
+        at validate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1385:13)
+        at SchemaObjectId.Object.<anonymous>.SchemaType.doValidate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1369:7)
+        at C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\document.js:3042:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `creator` is required.',
+        type: 'required',
+        path: 'creator',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'creator',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'Blog validation failed',
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'Blog validation failed: creator: Path `creator` is required.',
+  stack: 'ValidationError: Blog validation failed: creator: Path `creator` is required.\n' +
+    '    at model.Object.<anonymous>.Document.invalidate (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3289:32)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3050:17\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\schemaType.js:1388:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  timestamp: '2024-04-22T09:24:03.019Z'
+}
+{
+  errors: {
+    creator: ValidatorError: Path `creator` is required.
+        at validate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1385:13)
+        at SchemaObjectId.Object.<anonymous>.SchemaType.doValidate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1369:7)
+        at C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\document.js:3042:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `creator` is required.',
+        type: 'required',
+        path: 'creator',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'creator',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'Blog validation failed',
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'Blog validation failed: creator: Path `creator` is required.',
+  stack: 'ValidationError: Blog validation failed: creator: Path `creator` is required.\n' +
+    '    at model.Object.<anonymous>.Document.invalidate (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3289:32)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3050:17\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\schemaType.js:1388:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  timestamp: '2024-04-22T09:26:12.673Z'
+}
+{
+  errors: {
+    creator: ValidatorError: Path `creator` is required.
+        at validate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1385:13)
+        at SchemaObjectId.Object.<anonymous>.SchemaType.doValidate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1369:7)
+        at C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\document.js:3042:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `creator` is required.',
+        type: 'required',
+        path: 'creator',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'creator',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'Blog validation failed',
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'Blog validation failed: creator: Path `creator` is required.',
+  stack: 'ValidationError: Blog validation failed: creator: Path `creator` is required.\n' +
+    '    at model.Object.<anonymous>.Document.invalidate (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3289:32)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3050:17\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\schemaType.js:1388:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  timestamp: '2024-04-22T09:29:03.510Z'
+}
+{
+  errors: {
+    creator: ValidatorError: Path `creator` is required.
+        at validate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1385:13)
+        at SchemaObjectId.Object.<anonymous>.SchemaType.doValidate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1369:7)
+        at C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\document.js:3042:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `creator` is required.',
+        type: 'required',
+        path: 'creator',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'creator',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'Blog validation failed',
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'Blog validation failed: creator: Path `creator` is required.',
+  stack: 'ValidationError: Blog validation failed: creator: Path `creator` is required.\n' +
+    '    at model.Object.<anonymous>.Document.invalidate (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3289:32)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3050:17\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\schemaType.js:1388:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  timestamp: '2024-04-22T09:35:44.318Z'
+}
+{
+  errors: {
+    creator: ValidatorError: Path `creator` is required.
+        at validate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1385:13)
+        at SchemaObjectId.Object.<anonymous>.SchemaType.doValidate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1369:7)
+        at C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\document.js:3042:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `creator` is required.',
+        type: 'required',
+        path: 'creator',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'creator',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'Blog validation failed',
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'Blog validation failed: creator: Path `creator` is required.',
+  stack: 'ValidationError: Blog validation failed: creator: Path `creator` is required.\n' +
+    '    at model.Object.<anonymous>.Document.invalidate (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3289:32)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3050:17\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\schemaType.js:1388:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  timestamp: '2024-04-22T09:37:03.335Z'
+}
+{
+  errors: {
+    creator: ValidatorError: Path `creator` is required.
+        at validate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1385:13)
+        at SchemaObjectId.Object.<anonymous>.SchemaType.doValidate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1369:7)
+        at C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\document.js:3042:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `creator` is required.',
+        type: 'required',
+        path: 'creator',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'creator',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'Blog validation failed',
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'Blog validation failed: creator: Path `creator` is required.',
+  stack: 'ValidationError: Blog validation failed: creator: Path `creator` is required.\n' +
+    '    at model.Object.<anonymous>.Document.invalidate (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3289:32)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3050:17\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\schemaType.js:1388:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  timestamp: '2024-04-22T09:38:03.112Z'
+}
+{
+  errors: {
+    creator: ValidatorError: Path `creator` is required.
+        at validate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1385:13)
+        at SchemaObjectId.Object.<anonymous>.SchemaType.doValidate (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1369:7)
+        at C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\document.js:3042:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `creator` is required.',
+        type: 'required',
+        path: 'creator',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'creator',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'Blog validation failed',
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'Blog validation failed: creator: Path `creator` is required.',
+  stack: 'ValidationError: Blog validation failed: creator: Path `creator` is required.\n' +
+    '    at model.Object.<anonymous>.Document.invalidate (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3289:32)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\document.js:3050:17\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\schemaType.js:1388:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  timestamp: '2024-04-22T09:38:56.258Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:38:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T14:17:30.527Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T14:20:30.254Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T14:27:48.805Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T14:42:28.374Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T14:42:36.129Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T14:48:07.260Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T14:49:39.394Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T14:54:09.294Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T14:54:58.504Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T14:57:31.403Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T14:58:27.135Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:03:02.562Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:06:36.387Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:07:56.494Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:08:24.238Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:08:37.932Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:22:28.864Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:23:04.216Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:28:49.363Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:29:41.938Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:30:03.272Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:31:21.764Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:32:34.018Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:34:52.428Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:37:02.299Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:39:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:37:35.745Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:40:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:37:57.699Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:40:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:38:51.040Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:41:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:42:04.574Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:41:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:42:28.143Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:41:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:42:54.915Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:41:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:43:01.979Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:41:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:43:44.913Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:41:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:45:38.824Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:41:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T15:46:32.099Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:41:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T19:53:03.793Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:41:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T19:53:16.870Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:41:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T19:55:07.943Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:41:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T20:00:48.992Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'push')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'push')\n" +
+    '    at push (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:41:20)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T20:01:38.857Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'user.save is not a function',
+  stack: 'TypeError: user.save is not a function\n' +
+    '    at save (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:42:40)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T20:25:11.623Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'trim')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'trim')\n" +
+    '    at trim (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:22:33)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:67:6)\n' +
+    '    at _callee2$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:88:25)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-22T20:42:49.219Z'
+}
+{
+  stringValue: '"12345"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '12345',
+  path: '_id',
+  reason: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+      at new ObjectId (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\bson\src\objectid.ts:118:15)
+      at castObjectId (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at SchemaObjectId.Object.<anonymous>.SchemaObjectId.cast (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schema\objectId.js:248:12)
+      at SchemaObjectId.Object.<anonymous>.SchemaType.applySetters (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1236:12)
+      at SchemaObjectId.Object.<anonymous>.SchemaType.castForQuery (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\schemaType.js:1653:17)
+      at cast (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\cast.js:375:32)
+      at model.Query.Object.<anonymous>.Query.cast (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\query.js:4786:12)
+      at model.Query.Object.<anonymous>.Query._castConditions (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\query.js:2199:10)
+      at model.Query._findOne (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\query.js:2513:8)
+      at model.Query.exec (C:\Users\HP\OneDrive\Desktop\ALtschoool xam\node_modules\mongoose\lib\query.js:4330:80)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  valueType: 'string',
+  model: Model { User },
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'Cast to ObjectId failed for value "12345" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value "12345" (type string) at path "_id" for model "User"\n' +
+    '    at SchemaObjectId.Object.<anonymous>.SchemaObjectId.cast (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)\n' +
+    '    at SchemaObjectId.Object.<anonymous>.SchemaType.applySetters (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\schemaType.js:1236:12)\n' +
+    '    at SchemaObjectId.Object.<anonymous>.SchemaType.castForQuery (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\schemaType.js:1653:17)\n' +
+    '    at cast (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\cast.js:375:32)\n' +
+    '    at model.Query.Object.<anonymous>.Query.cast (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\query.js:4786:12)\n' +
+    '    at model.Query.Object.<anonymous>.Query._castConditions (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\query.js:2199:10)\n' +
+    '    at model.Query._findOne (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\query.js:2513:8)\n' +
+    '    at model.Query.exec (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\mongoose\\lib\\query.js:4330:80)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T20:47:16.477Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'Blog.findById(...).populate is not a function',
+  stack: 'TypeError: Blog.findById(...).populate is not a function\n' +
+    '    at populate (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:112:50)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:132:2)\n' +
+    '    at _callee2$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:91:23)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-22T20:47:57.146Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'Blog.findById(...).populate is not a function',
+  stack: 'TypeError: Blog.findById(...).populate is not a function\n' +
+    '    at populate (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:112:50)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:132:2)\n' +
+    '    at _callee2$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:91:23)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-22T20:49:35.727Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'Blog.findById(...).populate is not a function',
+  stack: 'TypeError: Blog.findById(...).populate is not a function\n' +
+    '    at populate (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:112:50)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:132:2)\n' +
+    '    at _callee2$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:91:23)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-22T20:57:31.253Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'Blog.findById(...).populate is not a function',
+  stack: 'TypeError: Blog.findById(...).populate is not a function\n' +
+    '    at populate (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:112:50)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:132:2)\n' +
+    '    at _callee2$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:91:23)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-22T20:57:41.953Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: 'Blog.findById(...).populate is not a function',
+  stack: 'TypeError: Blog.findById(...).populate is not a function\n' +
+    '    at populate (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:112:50)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:132:2)\n' +
+    '    at _callee2$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:92:23)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-22T21:04:36.408Z'
+}

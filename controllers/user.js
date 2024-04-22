@@ -37,6 +37,9 @@ exports.registerUser = async (req, res, next) => {
             email: email,
             password: hashedPw
         })
+
+        console.log(user, 'user details')
+
         authLogger.info('User created successfully')
         res.status(201).json({
             message: 'user created',
@@ -86,6 +89,7 @@ exports.loginUser = async (req, res, next)=>{
         process.env.JWT_SECRET,
         { expiresIn: '1hr'}
       );
+      console.log()
       authLogger.info('login successful')
       res.status(200).json({
         message: 'Login Successfull',

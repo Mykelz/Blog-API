@@ -2,8 +2,8 @@ const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
 
-module.exports = (req, res, next)=>{
-    const authHeader = req.get('Authorization');
+module.exports = async (req, res, next)=>{
+    const authHeader = req.headers.authorization;
     if(!authHeader){
         const error = new Error('Unauthorized')
         error.statusCode = 401;

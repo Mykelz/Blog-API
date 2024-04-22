@@ -1,0 +1,639 @@
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'authService',
+  message: "Cannot read properties of undefined (reading 'first_name')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'first_name')\n" +
+    '    at first_name (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:23:17)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:61:2)\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:39:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-21T15:23:18.497Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'authService',
+  message: "Cannot read properties of undefined (reading 'first_name')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'first_name')\n" +
+    '    at first_name (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:23:17)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:61:2)\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:39:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-21T15:24:44.231Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'authService',
+  message: "Cannot read properties of undefined (reading 'first_name')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'first_name')\n" +
+    '    at first_name (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:23:17)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:61:2)\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:39:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-21T15:25:21.149Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'authService',
+  message: "Cannot read properties of undefined (reading 'first_name')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'first_name')\n" +
+    '    at first_name (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:23:17)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:61:2)\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:39:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-21T15:26:04.226Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'authService',
+  message: "Cannot read properties of undefined (reading 'first_name')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'first_name')\n" +
+    '    at first_name (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:23:17)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:61:2)\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:39:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-21T15:27:03.502Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'authService',
+  message: "Cannot read properties of undefined (reading 'first_name')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'first_name')\n" +
+    '    at first_name (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:23:17)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:61:2)\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:37:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-21T15:27:25.281Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  service: 'authService',
+  message: 'User with the email already exits.',
+  stack: 'Error: User with the email already exits.\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:27:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-21T15:28:33.550Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  service: 'authService',
+  message: 'User with the email already exits.',
+  stack: 'Error: User with the email already exits.\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:27:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-21T15:28:33.569Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  service: 'authService',
+  message: 'User with the email already exits.',
+  stack: 'Error: User with the email already exits.\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:27:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-21T15:30:55.090Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  service: 'authService',
+  message: 'User with the email already exits.',
+  stack: 'Error: User with the email already exits.\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:27:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-21T15:30:55.102Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'authService',
+  message: "Cannot read properties of undefined (reading 'first_name')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'first_name')\n" +
+    '    at first_name (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:23:17)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:61:2)\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:39:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-21T15:32:16.375Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'authService',
+  message: "Cannot read properties of undefined (reading 'first_name')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'first_name')\n" +
+    '    at first_name (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:23:17)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:61:2)\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:39:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-21T15:34:15.668Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'authService',
+  message: "Cannot read properties of undefined (reading 'first_name')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'first_name')\n" +
+    '    at first_name (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:23:17)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:61:2)\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:39:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\__test\\auth.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-21T15:35:40.548Z'
+}
+{
+  message: {
+    first_name: 'testname',
+    last_name: 'testname',
+    email: 'test@mail.com',
+    password: 'hashedpswd',
+    statusCode: 500
+  },
+  level: 'error',
+  service: 'authService',
+  timestamp: '2024-04-21T17:18:37.318Z'
+}
+{
+  message: {
+    first_name: 'testname',
+    last_name: 'testname',
+    email: 'test@mail.com',
+    password: 'hashedpswd',
+    statusCode: 500
+  },
+  level: 'error',
+  service: 'authService',
+  timestamp: '2024-04-21T17:19:12.999Z'
+}
+{
+  message: {
+    first_name: 'testname',
+    last_name: 'testname',
+    email: 'test@mail.com',
+    password: 'hashedpswd',
+    statusCode: 500
+  },
+  level: 'error',
+  service: 'authService',
+  timestamp: '2024-04-21T17:19:23.903Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  service: 'authService',
+  message: 'User with the email already exits.',
+  stack: 'Error: User with the email already exits.\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:27:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T05:49:48.759Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  service: 'authService',
+  message: 'User with the email already exits.',
+  stack: 'Error: User with the email already exits.\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:27:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T05:49:48.763Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  service: 'authService',
+  message: 'User with the email already exits.',
+  stack: 'Error: User with the email already exits.\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:27:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T05:49:48.888Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  service: 'authService',
+  message: 'User with the email already exits.',
+  stack: 'Error: User with the email already exits.\n' +
+    '    at _callee$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:27:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T05:49:48.898Z'
+}
+{
+  message: {
+    first_name: 'testname',
+    last_name: 'testname',
+    email: 'test@mail.com',
+    password: 'hashedpswd',
+    statusCode: 500
+  },
+  level: 'error',
+  service: 'authService',
+  timestamp: '2024-04-22T05:50:39.403Z'
+}
+{
+  message: {
+    first_name: 'testname',
+    last_name: 'testname',
+    email: 'test@mail.com',
+    password: 'hashedpswd',
+    statusCode: 500
+  },
+  level: 'error',
+  service: 'authService',
+  timestamp: '2024-04-22T05:50:39.590Z'
+}
+{
+  statusCode: 401,
+  level: 'error',
+  service: 'authService',
+  message: 'No user is associated with this email',
+  stack: 'Error: No user is associated with this email\n' +
+    '    at _callee2$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:74:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T06:02:08.484Z'
+}
+{
+  statusCode: 401,
+  level: 'error',
+  service: 'authService',
+  message: 'No user is associated with this email',
+  stack: 'Error: No user is associated with this email\n' +
+    '    at _callee2$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:74:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T06:02:08.475Z'
+}
+{
+  statusCode: 401,
+  level: 'error',
+  service: 'authService',
+  message: 'No user is associated with this email',
+  stack: 'Error: No user is associated with this email\n' +
+    '    at _callee2$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:74:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T06:04:33.492Z'
+}
+{
+  statusCode: 401,
+  level: 'error',
+  service: 'authService',
+  message: 'No user is associated with this email',
+  stack: 'Error: No user is associated with this email\n' +
+    '    at _callee2$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:74:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T06:04:33.723Z'
+}
+{
+  statusCode: 401,
+  level: 'error',
+  service: 'authService',
+  message: 'No user is associated with this email',
+  stack: 'Error: No user is associated with this email\n' +
+    '    at _callee2$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:74:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T06:05:49.383Z'
+}
+{
+  statusCode: 401,
+  level: 'error',
+  service: 'authService',
+  message: 'No user is associated with this email',
+  stack: 'Error: No user is associated with this email\n' +
+    '    at _callee2$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:74:27)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\user.js:2:1)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  timestamp: '2024-04-22T06:05:49.430Z'
+}
