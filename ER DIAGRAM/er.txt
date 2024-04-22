@@ -1,0 +1,4 @@
+https://lucid.app/lucidchart/c1c5da4c-bbc0-4179-9969-d858e93ec6e0/edit?viewport_loc=-11%2C-10%2C1301%2C676%2C0_0&invitationId=inv_9aa58861-13c2-45d4-a8ec-c069d5074286
+
+
+Above this is the link to the ER DIAGRAM that shows relationship between entities in this project
