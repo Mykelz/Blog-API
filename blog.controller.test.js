@@ -1,6 +1,6 @@
 import Blog from "./models/blog";
 import User from "./models/user";
-import { createBlog, getABlog } from "./controllers/blog";
+import { createBlog, getABlog, getBlogs } from "./controllers/blog";
 
 
 
@@ -18,8 +18,6 @@ const mockReq = ()=>{
         }
     }
 }
-
-
 
 
 const mockRes = ()=>{
@@ -50,7 +48,38 @@ const mockBlog = {
             
 }
 
-
+const mockBlogs = [
+    {
+        title: "testtit-l",
+        description: "test description-1",
+        tag: "test tag",
+        creator: mockUser._id,
+        author: "testname",
+        body: "test body",
+        reading_time: "0.013333333333333334 min",
+        
+    },
+    {
+        title: "testtitle-2",
+        description: "test description-2",
+        tag: "test tag",
+        creator: mockUser._id,
+        author: "testname",
+        body: "test body",
+        reading_time: "0.013333333333333334 min",
+        
+    },
+    {
+        title: "testtitle-3",
+        description: "test description-3",
+        tag: "test tag",
+        creator: mockUser._id,
+        author: "testname",
+        body: "test body",
+        reading_time: "0.013333333333333334 min",
+        
+    }
+]
 
 const next = jest.fn();
 
@@ -98,5 +127,20 @@ describe("should get a single blog", ()=>{
         expect(Blog.findById).toHaveBeenCalledWith(blogId);
         expect(mockResponse.status).toHaveBeenCalledWith(200);
         expect(mockResponse.json).toHaveBeenCalledTimes(1);    
+    })
+})
+
+describe("should get all blogs", ()=>{
+    it("should get all blogs", async()=>{
+        jest.spyOn(Blog, 'find').mockReturnValue({
+            populate: jest.fn().mockResolvedValue(mockBlogs),
+          });
+        
+        Blog.find.populate = jest.fn().mockResolvedValue(mockBlog.creator);
+
+        const mockRequest = mockReq().body = {body : {}}
+        const mockResponse = mockRes();
+
+        await getBlogs(mockRequest, mockResponse, next);
     })
 })

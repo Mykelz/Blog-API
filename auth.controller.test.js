@@ -1,7 +1,7 @@
 import User from "./models/user";
 import { registerUser, loginUser } from "./controllers/user";
 import bcrypt from "bcrypt";
-const jwt = require('jsonwebtoken');
+import jwt from "jsonwebtoken";
 require('dotenv').config();
 
 

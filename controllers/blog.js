@@ -68,32 +68,53 @@ exports.createBlog = async (req, res, next )=>{
 
 exports.getBlogs = async (req, res, next) =>{
     try{
-        // for the search/filter query, In the query parameter the key would be 'search' and the 
-        // value would be any of author first_name, blog title or blog tag and it will filter through 
-        // the list of publisehd blogs and return the documents that match the search
+ 
+        const { limit = 20, page = 1, author, title, tag, order, orderBy} = req.query;
+        let sortQ = {};
+        if(orderBy === "read_count" && order === "asc"){
+            sortQ["read_count"] = 'asc'
 
-        let searchQuery = {
+        }
+        else if(orderBy === "read_count" && order === "desc"){
+            sortQ["read_count"] = 'desc'
+        }
+        if(orderBy === "createdAt" && order === "asc"){
+            sortQ["createdAt"] = 'asc'
+
+        }
+        else if(orderBy === "createdAt" && order === "desc"){
+            sortQ["createdAt"] = 'desc'
+        }
+        if(orderBy === "reading_time" && order === "asc"){
+            sortQ["reading_time"] = 'asc'
+
+        }
+        else if(orderBy === "reading_time" && order === "desc"){
+            sortQ["reading_time"] = 'desc'
+        }
+
+        let filterQ = {
             state: 'published'
         };
 
-        if (req.query.search) {
-            searchQuery.$or = [];
-            searchQuery.$or.push({ author: { $regex: req.query.search} });
-            searchQuery.$or.push({ title: { $regex: req.query.search} });
-            searchQuery.$or.push({ tag: { $regex: req.query.search } });
-
+        if (author){
+            filterQ["author"] = { $regex: author}
         }
-        
-        const { limit = 20, page = 1} = req.query;
-        
-        const blogs = await Blog.find(searchQuery)
-            .sort({ read_count: -1, createdAt: -1, reading_time: -1 })
+        else if(title){
+            filterQ["title"] = { $regex: title} 
+        }
+        else if(tag){
+            filterQ["tag"] = { $regex: tag} 
+        }
+
+        const blogs = await Blog.find(filterQ)
+            .sort(sortQ)
             .skip( (page - 1) * limit)
             .limit(limit)
             .populate('creator', 'first_name email')
             .exec()
         
-        blogLogger.info('All blogs')    
+        blogLogger.info('All blogs', blogs)    
         res.status(200).json({
             message: 'All blogs',
             data: blogs

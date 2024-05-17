@@ -1689,3 +1689,126 @@
     '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
   timestamp: '2024-04-22T23:27:29.505Z'
 }
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'search')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'search')\n" +
+    '    at search (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:79:23)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:109:2)\n' +
+    '    at _callee3$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:144:23)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-26T21:35:36.757Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'search')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'search')\n" +
+    '    at search (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:79:23)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:109:2)\n' +
+    '    at _callee3$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:144:23)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-26T21:36:08.869Z'
+}
+{
+  statusCode: 500,
+  level: 'error',
+  service: 'blogService',
+  message: "Cannot read properties of undefined (reading 'search')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'search')\n" +
+    '    at search (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:79:23)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:2:1\n' +
+    '    at apply (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\controllers\\blog.js:109:2)\n' +
+    '    at _callee3$ (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:144:23)\n' +
+    '    at call (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Generator.tryCatch (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Generator._invoke [as next] (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at _next (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\blog.controller.test.js:2:1)\n' +
+    '    at Promise.then.completed (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:298:28)\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at callAsyncCircusFn (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\utils.js:231:10)\n' +
+    '    at _callCircusTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:316:40)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at _runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:252:3)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:126:9)\n' +
+    '    at _runTestsForDescribeBlock (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:121:9)\n' +
+    '    at run (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\run.js:71:3)\n' +
+    '    at runAndTransformResultsToJestFormat (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n' +
+    '    at jestAdapter (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n' +
+    '    at runTestInternal (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n' +
+    '    at runTest (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n' +
+    '    at Object.worker (C:\\Users\\HP\\OneDrive\\Desktop\\ALtschoool xam\\node_modules\\jest-runner\\build\\testWorker.js:106:12)',
+  timestamp: '2024-04-26T21:49:58.245Z'
+}
