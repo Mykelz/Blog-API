@@ -2,7 +2,6 @@ const User = require('../models/user');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
-const { validationResult } = require("express-validator");
 
 require('../loggers')
 const wiston = require('winston');
@@ -10,16 +9,6 @@ const authLogger = wiston.loggers.get('authLogger');
 
 exports.registerUser = async (req, res, next) => {
     try{
-
-        const errors = validationResult(req);
-        if (!errors.isEmpty()) {
-          const error = new Error("Invalid Credential");
-          error.data = errors.array();
-          error.statusCode = 422;
-          authLogger.error(error)
-          throw error;
-        }
-
         const { first_name, last_name, email, password } = req.body;
 
         const userEx = await User.findOne({ email: email});

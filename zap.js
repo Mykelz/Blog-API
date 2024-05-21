@@ -89,3 +89,10 @@
 //     }
 //     console.log(newV +  'is a local scoped variable' )
 // }
+const arr = [1,2,3,4]
+let a = 0;
+for (let i = 0; i < arr.length; i++){
+    a += arr[i]
+}
+
+console.log(a)

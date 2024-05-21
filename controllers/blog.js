@@ -9,14 +9,14 @@ const blogLogger = wiston.loggers.get('blogLogger');
 exports.createBlog = async (req, res, next )=>{
 
     try{
-        const errors = validationResult(req);
-        if (!errors.isEmpty()) {
-          const error = new Error("Invalid Credential");
-          error.data = errors.array();
-          error.statusCode = 422;
-          blogLogger.error(error);
-          throw error;
-        }
+        // const errors = validationResult(req);
+        // if (!errors.isEmpty()) {
+        //   const error = new Error("Invalid Credential");
+        //   error.data = errors.array();
+        //   error.statusCode = 422;
+        //   blogLogger.error(error);
+        //   throw error;
+        // }
         const { title, description, tag, body } = req.body;
 
         const BodyLength = body.trim().split(" ").length
@@ -68,9 +68,9 @@ exports.createBlog = async (req, res, next )=>{
 
 exports.getBlogs = async (req, res, next) =>{
     try{
- 
         const { limit = 20, page = 1, author, title, tag, order, orderBy} = req.query;
         let sortQ = {};
+        
         if(orderBy === "read_count" && order === "asc"){
             sortQ["read_count"] = 'asc'
 
