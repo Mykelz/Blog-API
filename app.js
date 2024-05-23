@@ -5,8 +5,9 @@ const bodyParser = require('body-parser');
 const { rateLimit } = require('express-rate-limit');
 const userRoute = require('./routes/user');
 const blogRoute = require('./routes/blog');
+const redis = require('./Integrations/redis');
 
-const app = express()
+const app = express();
 
 
 const limiter = rateLimit({
@@ -36,6 +37,7 @@ mongoose.connect(process.env.CONNECT).then(connection=>{
     app.listen(process.env.PORT, ()=>{
         console.log(`app is listening on port ${process.env.PORT}`)
     })
+    redis.connect()
 }).catch(err=>{
     console.log(err)
 })

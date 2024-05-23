@@ -1,22 +1,16 @@
 const Blog = require('../models/blog');
 const User = require('../models/user');
-const { validationResult } = require("express-validator");
-
-require('../loggers')
+require('../Integrations/loggers')
 const wiston = require('winston');
 const blogLogger = wiston.loggers.get('blogLogger');
+const redisClient = require('../Integrations/redis');
+
+
+
 
 exports.createBlog = async (req, res, next )=>{
 
     try{
-        // const errors = validationResult(req);
-        // if (!errors.isEmpty()) {
-        //   const error = new Error("Invalid Credential");
-        //   error.data = errors.array();
-        //   error.statusCode = 422;
-        //   blogLogger.error(error);
-        //   throw error;
-        // }
         const { title, description, tag, body } = req.body;
 
         const BodyLength = body.trim().split(" ").length
@@ -35,9 +29,9 @@ exports.createBlog = async (req, res, next )=>{
             body: body,
             reading_time: `${readingTime} min`,
         })
-        console.log(blog)
+      
 
-        console.log(blog, 'user blog')
+        await redisClient.DEL('/blogs')
         user.blogs.push(blog)
         const updatedUser = await user.save();
         blogLogger.info('Blog created successfully');
@@ -107,14 +101,26 @@ exports.getBlogs = async (req, res, next) =>{
             filterQ["tag"] = { $regex: tag} 
         }
 
+        const cacheKey = `blogs:${JSON.stringify(sortQ)}:${JSON.stringify(filterQ)}:${limit}:${page}`
+
+        const data = await redisClient.get(cacheKey);
+        if (data){
+            blogLogger.info('cache hit')
+            return res.status(200).json({
+                message: 'All blogs',
+                data: JSON.parse(data)
+            })
+        }
         const blogs = await Blog.find(filterQ)
             .sort(sortQ)
             .skip( (page - 1) * limit)
             .limit(limit)
             .populate('creator', 'first_name email')
             .exec()
-        
-        blogLogger.info('All blogs', blogs)    
+
+        await redisClient.setEx(cacheKey, 10 * 60, JSON.stringify(blogs));
+        blogLogger.info('cache miss')
+        // blogLogger.info('All blogs', blogs)    
         res.status(200).json({
             message: 'All blogs',
             data: blogs

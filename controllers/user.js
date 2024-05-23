@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
-require('../loggers')
+require('../Integrations/loggers')
 const wiston = require('winston');
 const authLogger = wiston.loggers.get('authLogger');
 
